@@ -300,4 +300,21 @@
     font-size: 10px;
     line-height: 15px;
   }
+  * body .big__container main .similar_header_too {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  * body .big__container main .similar_header_too .right_similar_header {
+    margin-top: -5px;
+    padding: 100px 40px;
+  }
+  * body .big__container main .similar_header_too .right_similar_header h2 {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+  }
+  * body .big__container main .similar_header_too .right_similar_header p {
+    font-size: 10px;
+    line-height: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
