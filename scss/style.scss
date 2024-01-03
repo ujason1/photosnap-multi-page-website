@@ -240,197 +240,56 @@
                         }
                     }
                 }
-                .cards{
-                    display: flex;
-                    margin: 0 auto;
-                    justify-content: center;
-                    width: 100%;
-                    .one{
-                        display: flex;
-                        .mountain{
-                            background-image: url(../img/mauntain.png);
-                            background-repeat: no-repeat;
-                            height: 500px;
-                            max-width: 360px;
-                            row-gap: 4px;
-                            align-items:flex-end;
-                            padding-top: 361px;
-                            padding-left: 40px;
-                            padding-right: 20px;
-                            &:hover{
-                                cursor:pointer;
-                                transform: translateY(-40px);
-                                transition-duration: 1.8s;
-                            }
-                            h1{
-                                color: #FFF;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 25px;
-                            }
-                            p{
-                                color: #FFF;
-                                font-size: 13px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: normal;
-                            }
-                            .story{
-                                margin-top: 12px;
-                                display: flex;
-                                padding-top: 20px;
-                                border-top: 1px solid white;
-                                width: 280px;
-                                justify-content: space-between;
-                            }
-                        }
-                        .city{
-                            background-image: url(../img/city.png);
-                            background-repeat: no-repeat;
-                            height: 500px;
-                            max-width: 360px;
-                            row-gap: 4px;
-                            align-items:flex-end;
-                            padding-top: 361px;
-                            padding-left: 40px;
-                            padding-right: 10px;
-                            &:hover{
-                                cursor:pointer;
-                                transform: translateY(-50px);
-                                transition-duration: 1.8s;
-                            }
-                            h1{
-                                color: #FFF;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 25px;
-                            }
-                            p{
-                                color: #FFF;
-                                font-size: 13px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: normal;
-                            }
-                            .story{
-                                margin-top: 12px;
-                                display: flex;
-                                padding-top: 20px;
-                                border-top: 1px solid white;
-                                width: 280px;
-                                justify-content: space-between;
-                            }
-                        }
-                            }
-                .two{
-                    display: flex;
-                    .sayohat{
-                        background-image: url(../img/sayohat.png);
-                        background-repeat: no-repeat;
-                        height: 500px;
-                        max-width: 360px;
-                        background-color: red;
-                        row-gap: 4px;
-                        align-items:flex-end;
-                        padding-top: 361px;
-                        padding-left: 40px;
-                        padding-right: 20px;
-                        &:hover{
-                            cursor:pointer;
-                            transform: translateY(-50px);
-                            transition-duration: 1.8s;
-                        }
-                        h1{
-                            color: #FFF;
-                            font-size: 18px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: 25px;
-                        }
-                        p{
-                            color: #FFF;
-                            font-size: 13px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;
-                        }
-                        .story{
-                            margin-top: 12px;
-                            display: flex;
-                            padding-top: 20px;
-                            border-top: 1px solid white;
-                            width: 280px;
-                            justify-content: space-between;
-                        }
-                    }
-                    .building{
-                        background-image: url(../img/building.png);
-                        background-repeat: no-repeat;
-                        height: 500px;
-                        max-width: 330px;
-                        row-gap: 4px;
-                        padding-top: 361px;
-                        padding-left: 40px;
-                        padding-right: 25px;
-                        &:hover{
-                            cursor:pointer;
-                            transform: translateY(-50px);
-                            transition-duration: 1.8s;
-                        }
-                        h1{
-                            color: #FFF;
-                            font-size: 18px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: 25px;
-                        }
-                        p{
-                            color: #FFF;
-                            font-size: 13px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;
-                        }
-                        .story{
-                            margin-top: 12px;
-                            display: flex;
-                            padding-top: 20px;
-                            border-top: 1px solid white;
-                            width: 280px;
-                            justify-content: space-between;
-                        }
-                    }
-                }
-                }
+                
             }
-            .unusual_card{
+        }
+        .container{
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+            .cards{
                 display: flex;
-                justify-content: space-between;
-                .first_unusual_card{
-                    margin-top: 128px;
-                    width: 1110px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items:center;
-                    max-width: 350px;
-                    p{
-                        margin-top: 48px;
-                        color: #000;
-                        text-align: center;
-                        font-size: 18px;
-                        font-weight: 700;
-                        line-height: 25px; 
-                    }
-                    h6{
-                        margin-top: 16px;
-                        color: #000;
-                        text-align: center;
-                        font-size: 15px;
-                        font-weight: 400;
-                        line-height: 25px; 
-                        opacity: 0.6;
+                flex-wrap: wrap;
+                justify-content: center;
+                .card{
+                    transition: 300ms;
+                        &:hover{
+                            transform: translateY(-40px);
+                        }
+                    .img{
+                        img{
+                            width: 100%;
+                            max-width: 360px;
+                            height: 500px;
+                        }
+                        h5{
+                            margin-top: -150px;
+                            margin-left: 40px;
+                            color: #FFF;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            transition: 300ms;
+                        }
+                        p{
+                            margin-left: 40px;
+                            color: #FFF;
+                            font-size: 13px;
+                            font-weight: 400;
+                        }
+                        .line{
+                            margin-top: 16px;
+                            margin-left: 40px;
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                        }
+                        .svg{
+                            margin-top: 22px;
+                            display: flex;
+                            column-gap:147px;
+                        }
                     }
                 }
             }
