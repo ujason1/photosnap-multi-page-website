@@ -240,13 +240,231 @@
                         }
                     }
                 }
+                .cards{
+                    display: flex;
+                    margin: 0 auto;
+                    justify-content: center;
+                    width: 100%;
+                    .one{
+                        display: flex;
+                        .mountain{
+                            background-image: url(../img/mauntain.png);
+                            background-repeat: no-repeat;
+                            height: 500px;
+                            max-width: 360px;
+                            row-gap: 4px;
+                            align-items:flex-end;
+                            padding-top: 361px;
+                            padding-left: 40px;
+                            padding-right: 20px;
+                            &:hover{
+                                cursor:pointer;
+                                transform: translateY(-40px);
+                                transition-duration: 1.8s;
+                            }
+                            h1{
+                                color: #FFF;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            p{
+                                color: #FFF;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .story{
+                                margin-top: 12px;
+                                display: flex;
+                                padding-top: 20px;
+                                border-top: 1px solid white;
+                                width: 280px;
+                                justify-content: space-between;
+                            }
+                        }
+                        .city{
+                            background-image: url(../img/city.png);
+                            background-repeat: no-repeat;
+                            height: 500px;
+                            max-width: 360px;
+                            row-gap: 4px;
+                            align-items:flex-end;
+                            padding-top: 361px;
+                            padding-left: 40px;
+                            padding-right: 10px;
+                            &:hover{
+                                cursor:pointer;
+                                transform: translateY(-50px);
+                                transition-duration: 1.8s;
+                            }
+                            h1{
+                                color: #FFF;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            p{
+                                color: #FFF;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .story{
+                                margin-top: 12px;
+                                display: flex;
+                                padding-top: 20px;
+                                border-top: 1px solid white;
+                                width: 280px;
+                                justify-content: space-between;
+                            }
+                        }
+                            }
+                .two{
+                    display: flex;
+                    .sayohat{
+                        background-image: url(../img/sayohat.png);
+                        background-repeat: no-repeat;
+                        height: 500px;
+                        max-width: 360px;
+                        background-color: red;
+                        row-gap: 4px;
+                        align-items:flex-end;
+                        padding-top: 361px;
+                        padding-left: 40px;
+                        padding-right: 20px;
+                        &:hover{
+                            cursor:pointer;
+                            transform: translateY(-50px);
+                            transition-duration: 1.8s;
+                        }
+                        h1{
+                            color: #FFF;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .story{
+                            margin-top: 12px;
+                            display: flex;
+                            padding-top: 20px;
+                            border-top: 1px solid white;
+                            width: 280px;
+                            justify-content: space-between;
+                        }
+                    }
+                    .building{
+                        background-image: url(../img/building.png);
+                        background-repeat: no-repeat;
+                        height: 500px;
+                        max-width: 330px;
+                        row-gap: 4px;
+                        padding-top: 361px;
+                        padding-left: 40px;
+                        padding-right: 25px;
+                        &:hover{
+                            cursor:pointer;
+                            transform: translateY(-50px);
+                            transition-duration: 1.8s;
+                        }
+                        h1{
+                            color: #FFF;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .story{
+                            margin-top: 12px;
+                            display: flex;
+                            padding-top: 20px;
+                            border-top: 1px solid white;
+                            width: 280px;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+                }
+            }
+            .unusual_card{
+                display: flex;
+                justify-content: space-between;
+                .first_unusual_card{
+                    margin-top: 128px;
+                    width: 1110px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    max-width: 350px;
+                    p{
+                        margin-top: 48px;
+                        color: #000;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 25px; 
+                    }
+                    h6{
+                        margin-top: 16px;
+                        color: #000;
+                        text-align: center;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 25px; 
+                        opacity: 0.6;
+                    }
+                }
             }
         }
     }
 }
 
 
-
+@media (max-width:1330px){
+    *{
+        body{
+            .big__container{
+                main{
+                    .train{
+                        display: flex;
+                        flex-direction: column;
+                        align-items:center;
+                        .city{
+                            width: 360px;
+                        }
+                        .two{
+                            .sayohat{
+                                width: 360px;
+                            }
+                            .building{
+                                width: 360px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 @media(max-width:950px){
     *{
         body{
@@ -258,7 +476,7 @@
                             color: #FFF;
                             font-size: 30px;
                             font-weight: 700;
-                            line-height: 48px; 
+                            line-height: 38px; 
                             letter-spacing: 1.167px;
                             text-transform: uppercase;
                         }
@@ -269,6 +487,44 @@
                         }
                         a{
                             margin-top: 20px;
+                        }
+                    }
+                }
+                main{
+                    .similar-header{
+                        .right_similar_header{
+                            padding: 60px 30px;
+                        }
+                    }
+                    .similar_header_too{
+                        .right_similar_header{
+                            padding:50px 30px ;
+                        }
+                    }
+                    .cards{
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:800px){
+    *{
+        body{
+            .big__container{
+                main{
+                    .similar-header{
+                        .right_similar_header{
+                            h2{
+                                font-size: 25px;
+                                letter-spacing: 0.5px;
+                                line-height: 30px;
+                            }
+                            p{
+                                font-size: 10px;
+                                line-height: 15px;    
+                            }
                         }
                     }
                 }
@@ -336,6 +592,28 @@
                             p{
                                 font-size: 10px;
                                 line-height: 15px;    
+                            }
+                        }
+                    }
+                    .cards{
+                        display: flex;
+                        flex-direction: column;
+                        align-items:center;
+                        .one{
+                            display: flex;
+                            flex-direction: column;
+                            .city{
+                                width: 360px;
+                            }
+                        }
+                        .two{
+                            display: flex;
+                            flex-direction: column;
+                            .sayohat{
+                                width: 360px;
+                            }
+                            .building{
+                                width: 360px;
                             }
                         }
                     }

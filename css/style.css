@@ -238,14 +238,223 @@
 * body .big__container main .similar_header_too .right_similar_header a p:hover {
   border-bottom: 2px solid #000;
 }
+* body .big__container main .cards {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+}
+* body .big__container main .cards .one {
+  display: flex;
+}
+* body .big__container main .cards .one .mountain {
+  background-image: url(../img/mauntain.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  max-width: 360px;
+  row-gap: 4px;
+  align-items: flex-end;
+  padding-top: 361px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+* body .big__container main .cards .one .mountain:hover {
+  cursor: pointer;
+  transform: translateY(-40px);
+  transition-duration: 1.8s;
+}
+* body .big__container main .cards .one .mountain h1 {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+* body .big__container main .cards .one .mountain p {
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+* body .big__container main .cards .one .mountain .story {
+  margin-top: 12px;
+  display: flex;
+  padding-top: 20px;
+  border-top: 1px solid white;
+  width: 280px;
+  justify-content: space-between;
+}
+* body .big__container main .cards .one .city {
+  background-image: url(../img/city.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  max-width: 360px;
+  row-gap: 4px;
+  align-items: flex-end;
+  padding-top: 361px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+* body .big__container main .cards .one .city:hover {
+  cursor: pointer;
+  transform: translateY(-50px);
+  transition-duration: 1.8s;
+}
+* body .big__container main .cards .one .city h1 {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+* body .big__container main .cards .one .city p {
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+* body .big__container main .cards .one .city .story {
+  margin-top: 12px;
+  display: flex;
+  padding-top: 20px;
+  border-top: 1px solid white;
+  width: 280px;
+  justify-content: space-between;
+}
+* body .big__container main .cards .two {
+  display: flex;
+}
+* body .big__container main .cards .two .sayohat {
+  background-image: url(../img/sayohat.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  max-width: 360px;
+  background-color: red;
+  row-gap: 4px;
+  align-items: flex-end;
+  padding-top: 361px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+* body .big__container main .cards .two .sayohat:hover {
+  cursor: pointer;
+  transform: translateY(-50px);
+  transition-duration: 1.8s;
+}
+* body .big__container main .cards .two .sayohat h1 {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+* body .big__container main .cards .two .sayohat p {
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+* body .big__container main .cards .two .sayohat .story {
+  margin-top: 12px;
+  display: flex;
+  padding-top: 20px;
+  border-top: 1px solid white;
+  width: 280px;
+  justify-content: space-between;
+}
+* body .big__container main .cards .two .building {
+  background-image: url(../img/building.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  max-width: 330px;
+  row-gap: 4px;
+  padding-top: 361px;
+  padding-left: 40px;
+  padding-right: 25px;
+}
+* body .big__container main .cards .two .building:hover {
+  cursor: pointer;
+  transform: translateY(-50px);
+  transition-duration: 1.8s;
+}
+* body .big__container main .cards .two .building h1 {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+* body .big__container main .cards .two .building p {
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+* body .big__container main .cards .two .building .story {
+  margin-top: 12px;
+  display: flex;
+  padding-top: 20px;
+  border-top: 1px solid white;
+  width: 280px;
+  justify-content: space-between;
+}
+* body .big__container .unusual_card {
+  display: flex;
+  justify-content: space-between;
+}
+* body .big__container .unusual_card .first_unusual_card {
+  margin-top: 128px;
+  width: 1110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+}
+* body .big__container .unusual_card .first_unusual_card p {
+  margin-top: 48px;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+* body .big__container .unusual_card .first_unusual_card h6 {
+  margin-top: 16px;
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.6;
+}
 
+@media (max-width: 1330px) {
+  * body .big__container main .train {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  * body .big__container main .train .city {
+    width: 360px;
+  }
+  * body .big__container main .train .two .sayohat {
+    width: 360px;
+  }
+  * body .big__container main .train .two .building {
+    width: 360px;
+  }
+}
 @media (max-width: 950px) {
   * body .big__container header .left_header h2 {
     max-width: 387px;
     color: #FFF;
     font-size: 30px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 38px;
     letter-spacing: 1.167px;
     text-transform: uppercase;
   }
@@ -256,6 +465,26 @@
   }
   * body .big__container header .left_header a {
     margin-top: 20px;
+  }
+  * body .big__container main .similar-header .right_similar_header {
+    padding: 60px 30px;
+  }
+  * body .big__container main .similar_header_too .right_similar_header {
+    padding: 50px 30px;
+  }
+  * body .big__container main .cards {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 800px) {
+  * body .big__container main .similar-header .right_similar_header h2 {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+  }
+  * body .big__container main .similar-header .right_similar_header p {
+    font-size: 10px;
+    line-height: 15px;
   }
 }
 @media (max-width: 750px) {
@@ -316,5 +545,27 @@
   * body .big__container main .similar_header_too .right_similar_header p {
     font-size: 10px;
     line-height: 15px;
+  }
+  * body .big__container main .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  * body .big__container main .cards .one {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .big__container main .cards .one .city {
+    width: 360px;
+  }
+  * body .big__container main .cards .two {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .big__container main .cards .two .sayohat {
+    width: 360px;
+  }
+  * body .big__container main .cards .two .building {
+    width: 360px;
   }
 }/*# sourceMappingURL=style.css.map */
