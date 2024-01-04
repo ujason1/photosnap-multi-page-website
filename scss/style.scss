@@ -370,6 +370,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                padding-left: 10px;
+                padding-right: 10px;
                 .hah{
                     display: flex;
                     column-gap:109px;
@@ -442,6 +444,24 @@
                     flex-direction: column;
                     row-gap: 85px;
                     align-items: flex-end;
+                    .min_svg{
+                        display: flex;
+                        column-gap:16px;
+                        p{
+                            color: #FFF;
+                            text-align: right;
+                            font-size: 12px;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                        }
+                    }
+                    .p{
+                        color: #FFF;
+                        text-align: right;
+                        font-size: 15px;
+                        font-weight: 400;
+                        opacity: 0.5025;
+                    }
                 }
             }
         }

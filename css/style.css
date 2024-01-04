@@ -365,6 +365,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 * body .footer_part footer .hah {
   display: flex;
@@ -440,6 +442,25 @@
   flex-direction: column;
   row-gap: 85px;
   align-items: flex-end;
+}
+* body .footer_part footer .strelka .min_svg {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+* body .footer_part footer .strelka .min_svg p {
+  color: #FFF;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+* body .footer_part footer .strelka .p {
+  color: #FFF;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.5025;
 }
 
 @media (max-width: 1330px) {
