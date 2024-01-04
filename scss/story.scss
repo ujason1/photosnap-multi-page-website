@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body{
+        font-family: 'DM Sans', sans-serif;
+        .big__container{
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+            nav{
+                padding-top: 28px;
+                padding-left: 10px;
+                padding-right: 10px;    
+                width: 100%;
+                max-width: 1110px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 auto;
+                .a_tags{
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: center;
+                    column-gap: 37px;
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 12px;
+                        font-weight: 700;
+                        letter-spacing: 2px;
+                        &:hover{
+                            opacity: 0.3;
+                        }
+                    }
+                }
+                .menu{
+
+                    display: none;
+                    flex-direction: column;
+                    row-gap: 5px;
+                    div{
+                        width: 20px;
+                        height: 2px;
+                        background: #000;
+                    }
+                }
+                a{
+                    align-items: center;
+                    text-decoration: none;
+                    width: 100%;
+                    max-width: 158px;
+                    height: 40px;
+                    button{
+                        border: none;
+                        color: #FFF;
+                        font-size: 12px;
+                        font-weight: 700;
+                        letter-spacing: 2px;
+                        background: #000;
+                        width: 100%;
+                        max-width: 158px;
+                        height: 40px;
+                        &:hover{
+                            background: #DFDFDF;
+                            color: #000;
+                            font-size: 12px;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:750px){
+    *{
+        body{
+            .big__container{
+                nav{
+                    padding: 28px 20px;
+                    .menu{
+                        display: flex;
+                    }
+                    a{
+                        display: none;
+                    }
+                }
+            }
+        
+        }
+    }
+}           
