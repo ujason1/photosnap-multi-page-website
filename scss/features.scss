@@ -175,6 +175,162 @@
                 }
             }
         }
+        .display_container{
+            padding: 70px 0;
+            width: 100%;
+            background-image: url(../img/display.jpg);
+            background-size: cover;
+            .display{
+                max-width: 1440px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                h4{
+                    max-width: 400px;
+                    color: #FFF;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 48px; 
+                    letter-spacing: 4.167px;
+                    text-transform: uppercase;
+                }
+                .svg{
+                        margin-top: 48px;
+                        display: flex;
+                        align-items: center;
+                        column-gap: 18px;
+                        p{
+                            margin-top: -0px;
+                            color: #FFF;
+                            font-size: 12px;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                            &:hover{
+                                border-bottom:2px solid white;
+                            }
+                        }
+                }
+            }
+        }
+        .footer_part{
+            padding: 65px 0;
+            width: 100%;
+            background: #000;
+            footer{
+                margin: 0 auto;
+                width: 100%;
+                max-width: 1440px; 
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                row-gap: 50px;
+                padding-left: 10px;
+                padding-right: 10px;
+                .hah{
+                    display: flex;
+                    column-gap:109px;
+                    .svg_icons{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 85px;
+                        .icons{
+                            display: flex;
+                            column-gap:5px;
+                            .facebook{
+                                background-image: url(../img/facebook.svg);
+                                width: 20px;
+                                height: 20px;
+                                transition: 300ms;
+                                &:hover{
+                                    background-image: url(../img/face-hover.svg);
+                                }
+                            }
+                            .you-tube{
+                                background-image: url(../img/you-tube.svg);
+                                width: 20px;
+                                height: 20px;
+                                &:hover{
+                                    background-image: url(../img/you-hover.svg);
+                                }
+                            }
+                            .twitter{
+                                background-image: url(../img/twitter.svg);
+                                width: 20px;
+                                height: 17px;
+                                &:hover{
+                                    background-image: url(../img/twiter_hover.svg);
+                                }
+                            }
+                            .path{
+                                background-image: url(../img/path.svg);
+                                width: 20px;
+                                height: 20px;
+                                &:hover{
+                                    background-image: url(../img/Path_hover.svg);
+                                }
+                            }
+                            .Instagram{
+                                background-image: url(../img/instagram.svg);
+                                width: 20px;
+                                height: 20px;
+                                &:hover{
+                                    background-image: url(../img/insta_hover.svg);
+                                }
+                            }
+                        }
+                    }
+                    .a_tags{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 19px;
+                        a{
+                            text-decoration: none;
+                            color: #FFF;
+                            font-size: 12px;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            &:hover{
+                                opacity: 0.3;
+                            }
+                        }
+                    }
+                }
+                .strelka{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 85px;
+                    align-items: flex-end;
+                    .min_svg{
+                        display: flex;
+                        column-gap:16px;
+                        p{
+
+                            color: #FFF;
+                            text-align: right;
+                            font-size: 11px;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                            &:hover{
+                                border-bottom:1px solid white;
+                            }
+                        }
+                    }
+                    .p{
+                        color: #FFF;
+                        text-align: right;
+                        font-size: 15px;
+                        font-weight: 400;
+                        opacity: 0.5025;
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width:1050px){
@@ -243,6 +399,12 @@
                     }
                 }
             }
+            .footer_part{
+                footer{
+                    justify-content: center;
+                    column-gap: 30px;
+                }
+            }
         }
     }
 }
@@ -277,4 +439,48 @@
         }
     }
 
+}
+@media(max-width:610px){
+    *{
+        body{
+            .display_container{
+                .display{
+                    flex-direction: column;
+
+                    h4{
+                        text-align: center;
+                        max-width: 400px;
+                        color: #FFF;
+                        font-size: 32px;
+                        font-weight: 700;
+                        line-height: 40px; 
+                        letter-spacing: 4.167px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:400px){
+    *{
+        body{
+            .footer_part{
+                footer{
+                    .hah{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        row-gap: 50px;
+                        .svg_icons{
+                            align-items: center;
+                        }
+                    }
+                    .strelka{
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
 }
